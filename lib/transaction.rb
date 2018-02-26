@@ -1,11 +1,12 @@
 class Transaction
 
-  attr_reader :credit, :debit, :balance
+  attr_reader :credit, :debit, :balance, :date
 
   def initialize(amount, balance)
     @credit = 0
     @debit = 0
     @balance = balance
+    @date = Date.new.strftime('%D')
     update_credit_debit(amount)
   end
 
