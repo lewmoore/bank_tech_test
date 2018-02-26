@@ -1,3 +1,5 @@
+require './lib/statement.rb'
+
 class Transaction
 
   attr_reader :credit, :debit, :balance
