@@ -35,5 +35,4 @@ class Account
   def update_statement
     @statement.transactions << @transaction
   end
-
 end

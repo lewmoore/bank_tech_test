@@ -6,4 +6,8 @@ class Statement
     @transactions = []
   end
 
+  def print_header
+    "date || credit || debit || balance"
+  end
+
 end
