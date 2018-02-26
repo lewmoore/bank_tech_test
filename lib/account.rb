@@ -22,6 +22,10 @@ class Account
     update_statement
   end
 
+  def print_statement
+    @statement.print_transactions_with_header
+  end
+
   private
 
   def create_deposit_transaction(amount)

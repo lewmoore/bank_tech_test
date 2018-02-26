@@ -7,7 +7,15 @@ class Statement
   end
 
   def print_header
-    "date || credit || debit || balance"
+    puts "date || credit || debit || balance"
   end
 
+  def print_transactions
+    @transactions.each { |x| puts "DATE || #{x.credit} || #{x.debit} || #{x.balance}" }
+  end
+
+  def print_transactions_with_header
+    print_header
+    print_transactions
+  end
 end
