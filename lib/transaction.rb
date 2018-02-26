@@ -5,6 +5,7 @@ class Transaction
   def initialize(amount, balance)
     @credit = 0
     @debit = 0
+    @balance = balance
     update_credit_debit(amount)
   end
 

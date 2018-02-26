@@ -12,4 +12,8 @@ describe Transaction do
       expect(transaction.debit).to eq 0
     end
   end
+
+  it 'knows the balance value' do
+    expect(transaction.balance).to eq 500
+  end
 end
