@@ -27,4 +27,6 @@ I want to be able to print a bank statement
 
 In order to use this application, the user must start IRB and create a new bank account with ` account = Account.new `
 
-You can then view your balance with `account.balance`, deposit an amount with `account.deposit(amount)` and withdraw an amount with `account.withdraw(amount)`
+You can then view your balance with `account.balance`, deposit an amount with `account.deposit(amount)` and withdraw an amount with `account.withdraw(amount)`.
+
+You can also print out a full statement with `account.print_statement`.
