@@ -1,5 +1,9 @@
 # Bank Tech Test
 
+I ran this code through Better Code Hub and this is the resulting score:
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/lewmoore/bank_tech_test?branch=master)](https://bettercodehub.com/)
+
 ### Summary
 
 This is a short tech test that emulates a banking application where a user can create an account, withdraw funds, deposit funds and view their statements.
